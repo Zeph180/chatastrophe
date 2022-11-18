@@ -1,0 +1,13 @@
+{
+  "name": "chatastrophe",
+  "version": "1.0.0",
+  "description": "scott adams work",
+  "main": "index.js",
+  "repository": "https://github.com/Zeph180/chatastrophe.git",
+  "author": "Kigozi Joseph Suubi",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
