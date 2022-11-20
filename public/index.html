@@ -6,11 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>catastrophe</title>
     <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <script src="/secrets.js"></script>
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyC8RH_rh5AeW6uVeBW8meVLkTWx53kj9K8",
+            authDomain: "chatastrophe-be015.firebaseapp.com",
+            projectId: "chatastrophe-be015",
+            storageBucket: "chatastrophe-be015.appspot.com",
+            messagingSenderId: "806360600629",
+            appId: "1:806360600629:web:10682b301f5aa9e01c617c"
+        };
+        window.firebase = firebase;
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
     <div id="root"></div>
 </body>
 </html>
